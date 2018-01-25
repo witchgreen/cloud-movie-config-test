@@ -15,4 +15,4 @@ spring:
   session:
     store-type: none
 
-name: green
+name: LIM_GREEN
