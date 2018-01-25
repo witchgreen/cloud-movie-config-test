@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    initialize: true
+    platform: mysql
+    url: jdbc:mariadb://${CLOUD_MOVIE_DB_SERVICE_HOST}:${CLOUD_MOVIE_DB_SERVICE_PORT}/${MYSQL_DATABASE}
+    username: ${MYSQL_USER}
+    password: ${MYSQL_PASSWORD}
+  session:
+    store-type: redis
+  redis: 
+    host: ${CLOUD_MOVIE_REDIS_SERVICE_HOST}
+    port: ${CLOUD_MOVIE_REDIS_SERVICE_PORT}
