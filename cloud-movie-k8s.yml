@@ -10,3 +10,4 @@ spring:
   redis: 
     host: ${CLOUD_MOVIE_REDIS_SERVICE_HOST}
     port: ${CLOUD_MOVIE_REDIS_SERVICE_PORT}
+name: green-k8s
